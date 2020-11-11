@@ -1,0 +1,23 @@
+2020-11-09 14:48:59,738 : Radio Reset
+2020-11-09 14:48:59,755 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:48:59,755 : Initializing radio
+2020-11-09 14:49:00,150 : Radio initialized
+2020-11-09 14:49:00,151 : Starting Scan for Test-13
+2020-11-09 14:49:00,502 : 01CA450CBB1CE6 -55 "0
+2020-11-09 14:49:00,503 : Advertisement Length 1 -> 0
+2020-11-09 14:49:00,504 : Error in parsing advertisement
+2020-11-09 14:49:00,505 : Error in parsing scan response
+2020-11-09 14:49:02,537 : 01CA450CBB1CE6 -67 "0201061BFF7700010000000780E61CBB0C45CA0CB50200ABA95FA90B00000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:49:02,540 : Advertisement Length 114 -> 57
+2020-11-09 14:49:02,543 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:49:02,545 : Stopping Scan
+2020-11-09 14:49:02,551 : Preparing to set Epoch
+2020-11-09 14:49:02,552 : Attempting to connect to 01ca450cbb1ce6
+2020-11-09 14:49:05,765 : Connected in VSP mode
+2020-11-09 14:49:05,766 : {"jsonrpc": "2.0", "method": "setEpoch", "params": [1604954945], "id": 1}
+2020-11-09 14:49:05,973 : {"jsonrpc": "2.0", "id": 1, "result": "ok"}
+2020-11-09 14:49:05,974 : Requesting Disconnect
+2020-11-09 14:49:06,932 : Disconnected
+2020-11-09 14:49:06,932 : Pass: 1 Fail: 0
+2020-11-09 14:49:06,933 : Starting Scan for Test-13
+2020-11-09 14:49:06,949 : Stopping Scan

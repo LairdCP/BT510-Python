@@ -1,0 +1,17 @@
+2020-11-09 14:55:40,129 : Radio Reset
+2020-11-09 14:55:40,144 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:55:40,144 : Initializing radio
+2020-11-09 14:55:40,540 : Radio initialized
+2020-11-09 14:55:43,954 : Attempting to connect to 01C13A7E4118A2
+2020-11-09 14:55:47,994 : Connected in VSP mode
+2020-11-09 14:55:47,995 : {"jsonrpc": "2.0", "method": "set", "params": {"lock": 0}, "id": 1}
+2020-11-09 14:55:48,202 : {"jsonrpc": "2.0", "id": 1, "result": "ok"}
+2020-11-09 14:55:48,206 : {"jsonrpc": "2.0", "method": "get", "params": ["sensorName"], "id": 2}
+2020-11-09 14:55:48,298 : {"jsonrpc": "2.0", "id": 2, "sensorName": "Test-01", "result": "ok"}
+2020-11-09 14:55:48,299 : "sensorName": Test-01
+2020-11-09 14:55:48,299 : {"jsonrpc": "2.0", "method": "get", "params": ["location"], "id": 3}
+2020-11-09 14:55:48,377 : {"jsonrpc": "2.0", "id": 3, "location": "desk", "result": "ok"}
+2020-11-09 14:55:48,377 : "location": desk
+2020-11-09 14:55:48,378 : Requesting Disconnect
+2020-11-09 14:55:49,337 : Pass: 1 Fail: 0
+2020-11-09 14:55:49,337 : Disconnected

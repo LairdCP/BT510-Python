@@ -1,0 +1,122 @@
+2020-11-09 14:46:52,709 : Radio Reset
+2020-11-09 14:46:52,725 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:46:52,725 : Initializing radio
+2020-11-09 14:46:53,121 : Radio initialized
+2020-11-09 14:46:53,124 : Starting Scan for Test
+2020-11-09 14:46:53,189 : 01DFB086DF3F7D -87 "0201061BFF77000100000007807D3FDF86B0DF07260316D5675FA0F900000510FFE400030000000401000004010007000809546573742D3230"
+2020-11-09 14:46:53,189 : Advertisement Length 114 -> 57
+2020-11-09 14:46:53,190 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:46:53,192 : Found new sensor "Test-20" with BDA: dfb086df3f7d
+2020-11-09 14:46:53,193 :                 Test-20, 0xdfb086df3f7d, 09 Nov 20 14:46:53,       4.1.0,       1.0.7,  0.0,            5,              4,          0
+
+2020-11-09 14:46:53,349 : 01C075F70B7A1F -75 "0201061BFF77000100000006801F7A0BF775C00C190120DB675F910B00000810FFE400030000000401000000010007000809546573742D3131"
+2020-11-09 14:46:53,349 : Advertisement Length 114 -> 57
+2020-11-09 14:46:53,350 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:46:53,352 : Found new sensor "Test-11" with BDA: c075f70b7a1f
+2020-11-09 14:46:53,352 :                 Test-11, 0xc075f70b7a1f, 09 Nov 20 14:46:53,       4.1.0,       1.0.7,  0.0,            8,              0,          0
+
+2020-11-09 14:46:53,674 : 01C630157769EE -58 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:46:53,674 : Advertisement Length 114 -> 57
+2020-11-09 14:46:53,676 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:46:53,677 : Found new sensor "Test-05" with BDA: c630157769ee
+2020-11-09 14:46:53,678 :                 Test-05, 0xc630157769ee, 09 Nov 20 14:46:53,       4.1.0,       1.0.7,  0.0,            6,              4,          0
+
+2020-11-09 14:46:54,855 : 01DE901D27B28D -80 "0201061BFF77000100000002808DB2271D90DE01700324A8A95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:46:54,855 : Advertisement Length 114 -> 57
+2020-11-09 14:46:54,855 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:46:54,856 : Found new sensor "Test-18" with BDA: de901d27b28d
+2020-11-09 14:46:54,856 :                 Test-18, 0xde901d27b28d, 09 Nov 20 14:46:54,       4.1.0,       1.0.7,  0.0,           10,              2,          0
+
+2020-11-09 14:46:54,934 : unable to process advertisement
+2020-11-09 14:46:55,359 : 01C075F70B7A1F -82 "0201061BFF77000100000006801F7A0BF775C00C190120DB675F910B00000810FFE400030000000401000000010007000809546573742D3131"
+2020-11-09 14:46:55,359 : Advertisement Length 114 -> 57
+2020-11-09 14:46:55,360 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:46:55,679 : 01C630157769EE -63 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:46:55,679 : Advertisement Length 114 -> 57
+2020-11-09 14:46:55,680 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:46:56,868 : 01DE901D27B28D -88 "0201061BFF77000100000002808DB2271D90DE01700324A8A95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:46:56,869 : Advertisement Length 114 -> 57
+2020-11-09 14:46:56,870 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:46:57,973 : 01CA450CBB1CE6 -58 "0201061BFF7700010000000780E61CBB0C45CA01B4024DA9A95FC00800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:46:57,974 : Advertisement Length 114 -> 57
+2020-11-09 14:46:57,975 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:46:57,976 : Found new sensor "Test-13" with BDA: ca450cbb1ce6
+2020-11-09 14:46:57,977 :                 Test-13, 0xca450cbb1ce6, 09 Nov 20 14:46:57,       4.1.0,       1.0.7,  0.0,            2,             16,          0
+
+2020-11-09 14:46:58,661 : 01C630157769EE -57 "0201061BFF7700
+2020-11-09 14:46:58,661 : Advertisement Length 14 -> 7
+2020-11-09 14:46:58,662 : Error in parsing advertisement
+2020-11-09 14:46:58,663 : Error in parsing scan response
+2020-11-09 14:46:59,961 : 01CA450CBB1CE6 -56 "0201061BFF77000100000007
+2020-11-09 14:46:59,961 : Advertisement Length 24 -> 12
+2020-11-09 14:46:59,961 : Error in parsing advertisement
+2020-11-09 14:46:59,962 : Error in parsing scan response
+2020-11-09 14:47:00,368 : 01C075F70B7A1F -81 "0201061BFF77000100000006801F7A0BF775C00C190120DB675F910B00000810FFE400030000000401000000010007000809546573742D3131"
+2020-11-09 14:47:00,368 : Advertisement Length 114 -> 57
+2020-11-09 14:47:00,369 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:47:00,691 : 01C630157769EE -64 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:47:00,691 : Advertisement Length 114 -> 57
+2020-11-09 14:47:00,691 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:00,851 : 01DE901D27B28D -79 "0201061
+2020-11-09 14:47:00,852 : Advertisement Length 7 -> 0
+2020-11-09 14:47:00,852 : Error in parsing advertisement
+2020-11-09 14:47:00,853 : Error in parsing scan response
+2020-11-09 14:47:01,886 : 01DE901D27B28D -88 "0201061BFF77000100000002808DB2271D90DE01700324A8A95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:47:01,886 : Advertisement Length 114 -> 57
+2020-11-09 14:47:01,887 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:47:01,997 : 01CA450CBB1CE6 -56 "0201061BFF7700010000000780E61CBB0C45CA01B4024DA9A95FC00800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:47:01,997 : Advertisement Length 114 -> 57
+2020-11-09 14:47:01,998 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:02,382 : 01C075F70B7A1F -88 "0201061BFF77000100000006801F7A0BF775C00C190120DB675F910B00000810FFE400030000000401000000010007000809546573742D3131"
+2020-11-09 14:47:02,382 : Advertisement Length 114 -> 57
+2020-11-09 14:47:02,383 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:47:02,703 : 01C630157769EE -61 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:47:02,703 : Advertisement Length 114 -> 57
+2020-11-09 14:47:02,704 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:04,365 : 01C075F70B7A1F -74 "0201061BFF77000100
+2020-11-09 14:47:04,365 : Advertisement Length 18 -> 9
+2020-11-09 14:47:04,366 : Error in parsing advertisement
+2020-11-09 14:47:04,367 : Error in parsing scan response
+2020-11-09 14:47:04,716 : 01C630157769EE -57 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:47:04,717 : Advertisement Length 114 -> 57
+2020-11-09 14:47:04,718 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:04,989 : 01CA450CBB1CE6 -55 "0201061BFF
+2020-11-09 14:47:04,989 : Advertisement Length 10 -> 5
+2020-11-09 14:47:04,990 : Error in parsing advertisement
+2020-11-09 14:47:04,991 : Error in parsing scan response
+2020-11-09 14:47:05,899 : 01DE901D27B28D -79 "0201061BFF77000100000002808DB2271D90DE01700324A8A95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:47:05,900 : Advertisement Length 114 -> 57
+2020-11-09 14:47:05,901 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:47:06,870 : 01DD353AC041BB -63 "0201061BFF7700010000000780BB41C03A35DD0C4001D4AAA95F400B00000E10FFE400030000000401000009010007000809546573742D3132"
+2020-11-09 14:47:06,870 : Advertisement Length 114 -> 57
+2020-11-09 14:47:06,871 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:06,873 : Found new sensor "Test-12" with BDA: dd353ac041bb
+2020-11-09 14:47:06,874 :                 Test-12, 0xdd353ac041bb, 09 Nov 20 14:47:06,       4.1.0,       1.0.7,  0.0,           14,              9,          0
+
+2020-11-09 14:47:06,997 : 01CA450CBB1CE6 -57 "0201061BFF77000100
+2020-11-09 14:47:06,997 : Advertisement Length 18 -> 9
+2020-11-09 14:47:06,998 : Error in parsing advertisement
+2020-11-09 14:47:06,998 : Error in parsing scan response
+2020-11-09 14:47:07,736 : 01C630157769EE -61 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:47:07,736 : Advertisement Length 114 -> 57
+2020-11-09 14:47:07,737 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:07,916 : 01DE901D27B28D -90 "0201061BFF77000100000002808DB2271D90DE01700324A8A95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:47:07,916 : Advertisement Length 114 -> 57
+2020-11-09 14:47:07,917 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:47:08,879 : 01DD353AC041BB -59 "0201061BFF7700010000000780BB41C03A35DD0C4001D4AAA95F400B00000E10FFE400030000000401000009010007000809546573742D3132"
+2020-11-09 14:47:08,879 : Advertisement Length 114 -> 57
+2020-11-09 14:47:08,879 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:09,008 : unable to process advertisement
+2020-11-09 14:47:09,240 : 01DFB086DF3F7D -88 "02010
+2020-11-09 14:47:09,240 : Advertisement Length 5 -> 0
+2020-11-09 14:47:09,241 : Error in parsing advertisement
+2020-11-09 14:47:09,242 : Error in parsing scan response
+2020-11-09 14:47:09,745 : 01C630157769EE -58 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:47:09,745 : Advertisement Length 114 -> 57
+2020-11-09 14:47:09,747 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:47:10,933 : 01DE901D27B28D -78 "0201061BFF77000100000002808DB2271D90DE01700324A8A95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:47:10,933 : Advertisement Length 114 -> 57
+2020-11-09 14:47:10,934 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:47:11,751 : 01C630157769EE -65 "0201061BFF7700010000000780EE69771530C601B60009A9A95FBA0800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:47:11,752 : Advertisement Length 114 -> 57
+2020-11-09 14:47:11,753 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}

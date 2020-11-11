@@ -1,0 +1,32 @@
+2020-11-09 14:52:55,332 : Radio Reset
+2020-11-09 14:52:55,348 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:52:55,348 : Initializing radio
+2020-11-09 14:52:55,745 : Radio initialized
+2020-11-09 14:52:55,745 : Starting Scan for Test-13
+2020-11-09 14:54:38,651 : unable to process advertisement
+2020-11-09 14:54:40,691 : 01CA450CBB1CE6 -56 "0201061BFF7700010000000280E61CBB0C45CA0CBB0212ACA95F710B00000310FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:54:40,691 : Advertisement Length 114 -> 57
+2020-11-09 14:54:40,694 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:54:40,698 : Stopping Scan
+2020-11-09 14:54:40,707 : Attempting to connect to 01ca450cbb1ce6
+2020-11-09 14:54:43,906 : Connected in VSP mode
+2020-11-09 14:54:43,907 : {"jsonrpc": "2.0", "method": "get", "params": ["sensorName"], "id": 1}
+2020-11-09 14:54:44,128 : {"jsonrpc": "2.0", "id": 1, "sensorName": "Test-13", "result": "ok"}
+2020-11-09 14:54:44,128 : "sensorName": Test-13
+2020-11-09 14:54:44,129 : {"jsonrpc": "2.0", "method": "get", "params": ["location"], "id": 2}
+2020-11-09 14:54:44,209 : {"jsonrpc": "2.0", "id": 2, "location": "Bedroom", "result": "ok"}
+2020-11-09 14:54:44,210 : "location": Bedroom
+2020-11-09 14:54:44,210 : {"jsonrpc": "2.0", "method": "get", "params": ["firmwareVersion"], "id": 3}
+2020-11-09 14:54:44,343 : {"jsonrpc": "2.0", "id": 3, "firmwareVersion": "4.1.0", "result": "ok"}
+2020-11-09 14:54:44,343 : "firmwareVersion": 4.1.0
+2020-11-09 14:54:44,344 : {"jsonrpc": "2.0", "method": "get", "params": ["bluetoothAddress"], "id": 4}
+2020-11-09 14:54:44,463 : {"jsonrpc": "2.0", "id": 4, "bluetoothAddress": "CA450CBB1CE6", "result": "ok"}
+2020-11-09 14:54:44,463 : "bluetoothAddress": CA450CBB1CE6
+2020-11-09 14:54:44,464 : {"jsonrpc": "2.0", "method": "get", "params": ["activeMode"], "id": 5}
+2020-11-09 14:54:44,543 : {"jsonrpc": "2.0", "id": 5, "activeMode": 1, "result": "ok"}
+2020-11-09 14:54:44,544 : "activeMode": 1
+2020-11-09 14:54:44,544 : Requesting Disconnect
+2020-11-09 14:54:45,503 : Starting Scan for Test-13
+2020-11-09 14:54:45,503 : Disconnected
+2020-11-09 14:54:45,518 : Stopping Scan
+2020-11-09 14:54:45,535 : Done

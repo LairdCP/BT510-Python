@@ -1,0 +1,24 @@
+2020-11-09 14:57:53,843 : Radio Reset
+2020-11-09 14:57:53,858 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:57:53,858 : Initializing radio
+2020-11-09 14:57:54,261 : Radio initialized
+2020-11-09 14:57:54,261 : Starting Scan for BT510
+2020-11-09 14:58:01,023 : 01C13A7E4118A2 -60 "0201061BFF7700010000000380A218417E3AC1110100E758A95F030000000F10FFE4000300000004010100110000002006094254353130"
+2020-11-09 14:58:01,024 : Advertisement Length 110 -> 55
+2020-11-09 14:58:01,026 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:58:01,029 : Stopping Scan
+2020-11-09 14:58:01,039 : Preparing to configure new device
+2020-11-09 14:58:01,040 : Attempting to connect to 01c13a7e4118a2
+2020-11-09 14:58:04,302 : Connected in VSP mode
+2020-11-09 14:58:21,666 : {"jsonrpc": "2.0", "method": "set", "params": {"lock": 0}, "id": 1}
+2020-11-09 14:58:21,767 : {"jsonrpc": "2.0", "id": 1, "result": "ok"}
+2020-11-09 14:58:21,768 : {"jsonrpc": "2.0", "method": "setEpoch", "params": [1604955501], "id": 2}
+2020-11-09 14:58:21,863 : {"jsonrpc": "2.0", "id": 2, "result": "ok"}
+2020-11-09 14:58:21,863 : {"jsonrpc": "2.0", "method": "set", "params": {"sensorName": "Test-01", "location": "desk", "advertisingDuration": 15000, "batterySenseInterval": 900, "temperatureSenseInterval": 900, "odr": 5}, "id": 3}
+2020-11-09 14:58:21,976 : {"jsonrpc": "2.0", "id": 3, "result": "ok"}
+2020-11-09 14:58:23,976 : {"jsonrpc": "2.0", "method": "reboot", "id": 4}
+2020-11-09 14:58:24,070 : {"jsonrpc": "2.0", "id": 4, "result": "ok"}
+2020-11-09 14:58:31,071 : Requesting Disconnect
+2020-11-09 14:58:32,052 : Pass: 4 Fail: 0
+2020-11-09 14:58:32,052 : Disconnected
+2020-11-09 14:58:32,053 : Starting Scan for BT510

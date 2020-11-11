@@ -1,0 +1,51 @@
+2020-11-09 14:47:49,072 : Radio Reset
+2020-11-09 14:47:49,103 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:47:49,105 : Initializing radio
+2020-11-09 14:47:49,504 : Radio initialized
+2020-11-09 14:48:09,538 : Attempting to connect to 01C13A7E4118A2
+2020-11-09 14:48:17,503 : Attempting non-VSP connection
+2020-11-09 14:48:18,852 : Connected in non-VSP mode
+2020-11-09 14:48:21,252 : Encrypted in non-VSP mode
+2020-11-09 14:48:21,316 : Closed non-VSP connection
+2020-11-09 14:48:21,316 : Now that we have paired in non-VSP mode we can try a VSP connection
+2020-11-09 14:48:23,316 : Attempting to connect to 01C13A7E4118A2
+2020-11-09 14:48:25,585 : Connected in VSP mode
+2020-11-09 14:48:25,586 : {"jsonrpc": "2.0", "method": "set", "params": {"lock": 0}, "id": 1}
+2020-11-09 14:48:25,810 : {"jsonrpc": "2.0", "id": 1, "result": "ok"}
+2020-11-09 14:48:25,810 : {"jsonrpc": "2.0", "method": "get", "params": ["sensorName"], "id": 2}
+2020-11-09 14:48:25,905 : {"jsonrpc": "2.0", "id": 2, "sensorName": "Test-01", "result": "ok"}
+2020-11-09 14:48:25,906 : "sensorName": Test-01
+2020-11-09 14:48:25,906 : {"jsonrpc": "2.0", "method": "get", "params": ["location"], "id": 3}
+2020-11-09 14:48:25,986 : {"jsonrpc": "2.0", "id": 3, "location": "desk", "result": "ok"}
+2020-11-09 14:48:25,986 : "location": desk
+2020-11-09 14:48:25,986 : {"jsonrpc": "2.0", "method": "get", "params": ["firmwareVersion"], "id": 4}
+2020-11-09 14:48:26,086 : {"jsonrpc": "2.0", "id": 4, "firmwareVersion": "4.1.1", "result": "ok"}
+2020-11-09 14:48:26,087 : "firmwareVersion": 4.1.1
+2020-11-09 14:48:26,087 : {"jsonrpc": "2.0", "method": "get", "params": ["hwVersion"], "id": 5}
+2020-11-09 14:48:26,166 : {"jsonrpc": "2.0", "id": 5, "hwVersion": "4", "result": "ok"}
+2020-11-09 14:48:26,167 : "hwVersion": 4
+2020-11-09 14:48:26,167 : {"jsonrpc": "2.0", "method": "get", "params": ["bluetoothAddress"], "id": 6}
+2020-11-09 14:48:26,268 : {"jsonrpc": "2.0", "id": 6, "bluetoothAddress": "C13A7E4118A2", "result": "ok"}
+2020-11-09 14:48:26,268 : "bluetoothAddress": C13A7E4118A2
+2020-11-09 14:48:26,268 : {"jsonrpc": "2.0", "method": "get", "params": ["activeMode"], "id": 7}
+2020-11-09 14:48:26,347 : {"jsonrpc": "2.0", "id": 7, "activeMode": 1, "result": "ok"}
+2020-11-09 14:48:26,347 : "activeMode": 1
+2020-11-09 14:48:26,348 : {"jsonrpc": "2.0", "method": "get", "params": ["accelerometerSelfTestStatus"], "id": 8}
+2020-11-09 14:48:26,443 : {"jsonrpc": "2.0", "id": 8, "accelerometerSelfTestStatus": 2, "result": "ok"}
+2020-11-09 14:48:26,444 : "accelerometerSelfTestStatus": 2
+2020-11-09 14:48:26,444 : {"jsonrpc": "2.0", "method": "setEpoch", "params": [1604954906], "id": 9}
+2020-11-09 14:48:26,523 : {"jsonrpc": "2.0", "id": 9, "result": "ok"}
+2020-11-09 14:48:29,524 : {"jsonrpc": "2.0", "method": "getEpoch", "id": 10}
+2020-11-09 14:48:29,611 : {"jsonrpc": "2.0", "id": 10, "result": 1604954909}
+2020-11-09 14:48:29,611 : {"jsonrpc": "2.0", "method": "get", "params": ["resetReason"], "id": 11}
+2020-11-09 14:48:29,717 : {"jsonrpc": "2.0", "id": 11, "resetReason": "POWER_UP", "result": "ok"}
+2020-11-09 14:48:29,718 : "resetReason": POWER_UP
+2020-11-09 14:48:29,718 : {"jsonrpc": "2.0", "method": "get", "params": ["tempCc"], "id": 12}
+2020-11-09 14:48:29,797 : {"jsonrpc": "2.0", "id": 12, "tempCc": 2302, "result": "ok"}
+2020-11-09 14:48:29,798 : "tempCc": 2302
+2020-11-09 14:48:29,798 : {"jsonrpc": "2.0", "method": "get", "params": ["batteryVoltageMv"], "id": 13}
+2020-11-09 14:48:29,925 : {"jsonrpc": "2.0", "id": 13, "batteryVoltageMv": 2894, "result": "ok"}
+2020-11-09 14:48:29,925 : "batteryVoltageMv": 2894
+2020-11-09 14:48:29,926 : Requesting Disconnect
+2020-11-09 14:48:30,868 : Pass: 3 Fail: 0
+2020-11-09 14:48:30,868 : Disconnected

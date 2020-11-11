@@ -1,0 +1,8 @@
+{
+	"sensorName": "Test-",
+	"location": "",
+	"advertisingDuration": 15000,
+	"batterySenseInterval": 3600,
+	"temperatureSenseInterval": 900,
+	"odr": 0
+}

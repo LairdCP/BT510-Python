@@ -1,0 +1,7 @@
+                   Name,        BD Addr,          Timestamp,  FW Version, BootVersion,   HW,  Reset Count, Config Version, Network ID
+                Test-20, 0xdfb086df3f7d, 09 Nov 20 14:46:53,       4.1.0,       1.0.7,  0.0,            5,              4,          0
+                Test-11, 0xc075f70b7a1f, 09 Nov 20 14:46:53,       4.1.0,       1.0.7,  0.0,            8,              0,          0
+                Test-05, 0xc630157769ee, 09 Nov 20 14:46:53,       4.1.0,       1.0.7,  0.0,            6,              4,          0
+                Test-18, 0xde901d27b28d, 09 Nov 20 14:46:54,       4.1.0,       1.0.7,  0.0,           10,              2,          0
+                Test-13, 0xca450cbb1ce6, 09 Nov 20 14:46:57,       4.1.0,       1.0.7,  0.0,            2,             16,          0
+                Test-12, 0xdd353ac041bb, 09 Nov 20 14:47:06,       4.1.0,       1.0.7,  0.0,           14,              9,          0

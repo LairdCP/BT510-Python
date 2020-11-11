@@ -1,0 +1,26 @@
+2020-11-09 14:52:15,190 : Radio Reset
+2020-11-09 14:52:15,205 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:52:15,207 : Initializing radio
+2020-11-09 14:52:15,622 : Radio initialized
+2020-11-09 14:52:15,622 : Starting Scan for Test-13
+2020-11-09 14:52:17,445 : 01CA450CBB1CE6 -59 "0201061BFF7700010000000780E61CBB0C45CA0CB702D6ABA95FAD0B00000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:52:17,446 : Advertisement Length 114 -> 57
+2020-11-09 14:52:17,447 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:52:17,449 : Stopping Scan
+2020-11-09 14:52:17,461 : Preparing to send enter bootloader command
+2020-11-09 14:52:17,462 : Attempting to connect to 01ca450cbb1ce6
+2020-11-09 14:52:19,589 : Disconnected
+2020-11-09 14:52:22,463 : Attempting non-VSP connection
+2020-11-09 14:52:23,444 : Connected in non-VSP mode
+2020-11-09 14:52:25,844 : Encrypted in non-VSP mode
+2020-11-09 14:52:25,907 : Closed non-VSP connection
+2020-11-09 14:52:25,908 : Now that we have paired in non-VSP mode we can try a VSP connection
+2020-11-09 14:52:27,909 : Attempting to connect to 01ca450cbb1ce6
+2020-11-09 14:52:29,202 : Connected in VSP mode
+2020-11-09 14:52:31,203 : {"jsonrpc": "2.0", "method": "reboot", "params": [1], "id": 1}
+2020-11-09 14:52:31,297 : {"jsonrpc": "2.0", "id": 1, "result": "ok"}
+2020-11-09 14:52:38,299 : Requesting Disconnect
+2020-11-09 14:52:39,277 : Disconnected
+2020-11-09 14:52:39,278 : Pass: 1 Fail: 0
+2020-11-09 14:52:39,278 : Starting Scan for Test-13
+2020-11-09 14:52:39,293 : Stopping Scan

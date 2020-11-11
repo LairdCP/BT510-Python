@@ -1,0 +1,210 @@
+2020-11-09 14:50:47,917 : Radio Reset
+2020-11-09 14:50:47,933 : Dongle BD Address: ['01FCEA3495B3CB', 'OK']
+2020-11-09 14:50:47,934 : Initializing radio
+2020-11-09 14:50:48,332 : Radio initialized
+2020-11-09 14:50:48,332 : Starting Scan for Test
+2020-11-09 14:50:48,481 : 01CA450CBB1CE6 -54 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:50:48,482 : Advertisement Length 114 -> 57
+2020-11-09 14:50:48,482 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:50:48,483 : Found new sensor "Test-13" with BDA: ca450cbb1ce6
+2020-11-09 14:50:48,483 : rsp(ms2_length=16, ms2_type=255, ms2_company_id=228, protocol_id=3, product_id=0, firmware_major_version=4, firmware_minor_version=1, firmware_build_version=0, firmware_type=0, config_version=16, bootloader_major_version=1, bootloader_minor_version=0, bootloader_build_version=7, packed_hardware_version=0, name_length=8, name_type=9)
+2020-11-09 14:50:48,483 : Test-13
+2020-11-09 14:50:48,484 : {'epoch': 1604955045, 'type': <SensorEventType.TEMPERATURE: 1>, 'number': 694, 'magnet_state': <MagnetState.FAR: 1>, 'temperature': 22.5, 'batteryVoltage': 0.0, 'reset_reason': <ResetReason.UNKNOWN: 10>, 'logger': <Logger AD parser (DEBUG)>}
+2020-11-09 14:50:48,484 : Stopping Scan
+2020-11-09 14:50:48,497 : Attempting to connect to 01ca450cbb1ce6
+2020-11-09 14:50:51,727 : Connected in VSP mode
+2020-11-09 14:50:51,727 : {"jsonrpc": "2.0", "method": "dump", "id": 1}
+2020-11-09 14:50:52,105 : {"jsonrpc": "2.0", "id": 1, "mtu": 96, "odr": 5, "txPower": 0, "scale": 2, "magnetState": 1, "resetCount": 2, "movementAlarm": 0, "networkId": 0, "sensorName": "Test-13", "resetReason": "SREQ", "scratchpad2": 0, "activeMode": 1, "scratchpad1": 0, "deltaTemperatureAlarm": 0, "useCodedPhy": 0, "tempCc": 2250, "lock": 0, "returnToSleepDuration": 6, "activationThreshold": 8, "rateOfChangeTemperatureAlarm": 0, "deltaTemperatureAlarmTheshold": 255, "location": "Bedroom", "temperatureAggregationCount": 1, "advertisingDuration": 0, "configVersion": 16, "connectionTimeout": 60, "hwVersion": "0", "lowTemperatureAlarm": 0, "rateOfChangeTemperatureAlarmThreshold": 0, "bluetoothAddress": "CA450CBB1CE6", "bootloaderVersion": "1.0.7", "accelerometerSelfTestStatus": 2, "highTemperatureAlarm": 0, "temperatureSenseInterval": 600, "advertisingInterval": 1000, "batteryVoltageMv": 2985, "hardwareMinorVersion": 0, "lowTemperatureAlarmThreshold2": -127, "passkey": "123456", "lowTemperatureAlarmThreshold1": -127, "flags": 32775, "highTemperatureAlarmThreshold2": 127, "scratchpad3": 0, "batterySenseInterval": 1800, "highTemperatureAlarmThreshold1": 127, "impactAlarm": 0, "firmwareVersion": "4.1.0", "result": "ok"}
+2020-11-09 14:50:52,105 : Requesting Disconnect
+2020-11-09 14:50:53,052 : Starting Scan for Test
+2020-11-09 14:50:53,052 : Disconnected
+2020-11-09 14:50:53,990 : 01DE901D27B28D -78 "0201061BFF77000100000002808DB2271D90DE0171037CAAA95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:50:53,990 : Advertisement Length 114 -> 57
+2020-11-09 14:50:53,991 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:50:53,993 : Found new sensor "Test-18" with BDA: de901d27b28d
+2020-11-09 14:50:53,993 : rsp(ms2_length=16, ms2_type=255, ms2_company_id=228, protocol_id=3, product_id=0, firmware_major_version=4, firmware_minor_version=1, firmware_build_version=0, firmware_type=0, config_version=2, bootloader_major_version=1, bootloader_minor_version=0, bootloader_build_version=7, packed_hardware_version=0, name_length=8, name_type=9)
+2020-11-09 14:50:53,994 : Test-18
+2020-11-09 14:50:53,995 : {'epoch': 1604954748, 'type': <SensorEventType.TEMPERATURE: 1>, 'number': 881, 'magnet_state': <MagnetState.FAR: 1>, 'temperature': 22.06, 'batteryVoltage': 0.0, 'reset_reason': <ResetReason.UNKNOWN: 10>, 'logger': <Logger AD parser (DEBUG)>}
+2020-11-09 14:50:53,996 : Stopping Scan
+2020-11-09 14:50:54,006 : Attempting to connect to 01de901d27b28d
+2020-11-09 14:50:57,429 : Connected in VSP mode
+2020-11-09 14:50:57,430 : {"jsonrpc": "2.0", "method": "dump", "id": 2}
+2020-11-09 14:50:57,847 : {"jsonrpc": "2.0", "id": 2, "mtu": 96, "odr": 5, "txPower": 0, "scale": 2, "magnetState": 1, "resetCount": 10, "movementAlarm": 0, "networkId": 0, "sensorName": "Test-18", "resetReason": "SREQ", "scratchpad2": 0, "activeMode": 1, "scratchpad1": 0, "deltaTemperatureAlarm": 0, "useCodedPhy": 0, "tempCc": 2206, "lock": 0, "returnToSleepDuration": 6, "activationThreshold": 8, "rateOfChangeTemperatureAlarm": 0, "deltaTemperatureAlarmTheshold": 255, "location": "kitchen", "temperatureAggregationCount": 1, "advertisingDuration": 0, "configVersion": 2, "connectionTimeout": 60, "hwVersion": "0", "lowTemperatureAlarm": 0, "rateOfChangeTemperatureAlarmThreshold": 0, "bluetoothAddress": "DE901D27B28D", "bootloaderVersion": "1.0.7", "accelerometerSelfTestStatus": 2, "highTemperatureAlarm": 0, "temperatureSenseInterval": 600, "advertisingInterval": 1000, "batteryVoltageMv": 2975, "hardwareMinorVersion": 0, "lowTemperatureAlarmThreshold2": -127, "passkey": "123456", "lowTemperatureAlarmThreshold1": -127, "flags": 32770, "highTemperatureAlarmThreshold2": 127, "scratchpad3": 0, "batterySenseInterval": 3600, "highTemperatureAlarmThreshold1": 127, "impactAlarm": 0, "firmwareVersion": "4.1.0", "result": "ok"}
+2020-11-09 14:50:57,848 : Requesting Disconnect
+2020-11-09 14:50:58,806 : Starting Scan for Test
+2020-11-09 14:50:58,806 : Disconnected
+2020-11-09 14:50:59,095 : unable to process advertisement
+2020-11-09 14:51:00,131 : 01CA450CBB1CE6 -58 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:00,131 : Advertisement Length 114 -> 57
+2020-11-09 14:51:00,132 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:00,133 : Duplicate AD
+2020-11-09 14:51:01,808 : 01C630157769EE -67 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:01,808 : Advertisement Length 114 -> 57
+2020-11-09 14:51:01,809 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:01,810 : Found new sensor "Test-05" with BDA: c630157769ee
+2020-11-09 14:51:01,811 : rsp(ms2_length=16, ms2_type=255, ms2_company_id=228, protocol_id=3, product_id=0, firmware_major_version=4, firmware_minor_version=1, firmware_build_version=0, firmware_type=0, config_version=4, bootloader_major_version=1, bootloader_minor_version=0, bootloader_build_version=7, packed_hardware_version=0, name_length=8, name_type=9)
+2020-11-09 14:51:01,812 : Test-05
+2020-11-09 14:51:01,812 : {'epoch': 1604954977, 'type': <SensorEventType.TEMPERATURE: 1>, 'number': 183, 'magnet_state': <MagnetState.FAR: 1>, 'temperature': 22.47, 'batteryVoltage': 0.0, 'reset_reason': <ResetReason.UNKNOWN: 10>, 'logger': <Logger AD parser (DEBUG)>}
+2020-11-09 14:51:01,813 : Stopping Scan
+2020-11-09 14:51:01,823 : Attempting to connect to 01c630157769ee
+2020-11-09 14:51:05,087 : Connected in VSP mode
+2020-11-09 14:51:05,087 : {"jsonrpc": "2.0", "method": "dump", "id": 3}
+2020-11-09 14:51:05,583 : {"jsonrpc": "2.0", "id": 3, "mtu": 96, "odr": 0, "txPower": 0, "scale": 0, "magnetState": 1, "resetCount": 6, "movementAlarm": 0, "networkId": 0, "sensorName": "Test-05", "resetReason": "SREQ", "scratchpad2": 0, "activeMode": 1, "scratchpad1": 0, "deltaTemperatureAlarm": 0, "useCodedPhy": 0, "tempCc": 2247, "lock": 0, "returnToSleepDuration": 6, "activationThreshold": 0, "rateOfChangeTemperatureAlarm": 0, "deltaTemperatureAlarmTheshold": 255, "location": "cube", "temperatureAggregationCount": 1, "advertisingDuration": 0, "configVersion": 4, "connectionTimeout": 60, "hwVersion": "0", "lowTemperatureAlarm": 0, "rateOfChangeTemperatureAlarmThreshold": 0, "bluetoothAddress": "C630157769EE", "bootloaderVersion": "1.0.7", "accelerometerSelfTestStatus": 2, "highTemperatureAlarm": 0, "temperatureSenseInterval": 600, "advertisingInterval": 1000, "batteryVoltageMv": 2968, "hardwareMinorVersion": 0, "lowTemperatureAlarmThreshold2": -127, "passkey": "123456", "lowTemperatureAlarmThreshold1": -127, "flags": 32775, "highTemperatureAlarmThreshold2": 127, "scratchpad3": 0, "batterySenseInterval": 3600, "highTemperatureAlarmThreshold1": 127, "impactAlarm": 0, "firmwareVersion": "4.1.0", "result": "ok"}
+2020-11-09 14:51:05,584 : Requesting Disconnect
+2020-11-09 14:51:06,526 : Starting Scan for Test
+2020-11-09 14:51:06,526 : Disconnected
+2020-11-09 14:51:07,145 : 01CA450CBB1CE6 -64 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:07,146 : Advertisement Length 114 -> 57
+2020-11-09 14:51:07,147 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:07,149 : Duplicate AD
+2020-11-09 14:51:07,560 : 01C630157769EE -64 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:07,560 : Advertisement Length 114 -> 57
+2020-11-09 14:51:07,561 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:07,562 : Duplicate AD
+2020-11-09 14:51:07,847 : 01DE901D27B28D -87 "02
+2020-11-09 14:51:07,847 : Advertisement Length 2 -> 1
+2020-11-09 14:51:07,848 : Error in parsing advertisement
+2020-11-09 14:51:07,849 : Error in parsing scan response
+2020-11-09 14:51:09,131 : 01CA450CBB1CE6 -62 "02
+2020-11-09 14:51:09,131 : Advertisement Length 2 -> 1
+2020-11-09 14:51:09,132 : Error in parsing advertisement
+2020-11-09 14:51:09,133 : Error in parsing scan response
+2020-11-09 14:51:10,571 : 01C630157769EE -61 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:10,572 : Advertisement Length 114 -> 57
+2020-11-09 14:51:10,573 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:10,574 : Duplicate AD
+2020-11-09 14:51:12,139 : unable to process advertisement
+2020-11-09 14:51:12,565 : 01C630157769EE -64 "0201061BFF77000100000007
+2020-11-09 14:51:12,565 : Advertisement Length 24 -> 12
+2020-11-09 14:51:12,567 : Error in parsing advertisement
+2020-11-09 14:51:12,567 : Error in parsing scan response
+2020-11-09 14:51:13,451 : 01DFB086DF3F7D -89 "0201061BFF77000100000007807D3FDF86B0DF07260316D5675FA0F900000510FFE400030000000401000004010007000809546573742D3230"
+2020-11-09 14:51:13,451 : Advertisement Length 114 -> 57
+2020-11-09 14:51:13,452 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:13,453 : Found new sensor "Test-20" with BDA: dfb086df3f7d
+2020-11-09 14:51:13,453 : rsp(ms2_length=16, ms2_type=255, ms2_company_id=228, protocol_id=3, product_id=0, firmware_major_version=4, firmware_minor_version=1, firmware_build_version=0, firmware_type=0, config_version=4, bootloader_major_version=1, bootloader_minor_version=0, bootloader_build_version=7, packed_hardware_version=0, name_length=8, name_type=9)
+2020-11-09 14:51:13,453 : Test-20
+2020-11-09 14:51:13,454 : {'epoch': 1600640278, 'type': <SensorEventType.ALARM_LOW_TEMP_1: 7>, 'number': 806, 'magnet_state': <MagnetState.FAR: 1>, 'temperature': -16.32, 'batteryVoltage': 0.0, 'reset_reason': <ResetReason.UNKNOWN: 10>, 'logger': <Logger AD parser (DEBUG)>}
+2020-11-09 14:51:13,454 : Stopping Scan
+2020-11-09 14:51:13,467 : Attempting to connect to 01dfb086df3f7d
+2020-11-09 14:51:16,427 : Disconnected
+2020-11-09 14:51:18,468 : Attempting non-VSP connection
+2020-11-09 14:51:20,469 : Unable to connect in non-VSP mode
+2020-11-09 14:51:20,469 : Unable to connect
+2020-11-09 14:51:20,469 : Starting Scan for Test
+2020-11-09 14:51:21,642 : 01C630157769EE -67 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:21,642 : Advertisement Length 114 -> 57
+2020-11-09 14:51:21,643 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:21,645 : Duplicate AD
+2020-11-09 14:51:21,914 : unable to process advertisement
+2020-11-09 14:51:22,179 : 01CA450CBB1CE6 -64 "0201061BFF77000100000
+2020-11-09 14:51:22,179 : Advertisement Length 21 -> 0
+2020-11-09 14:51:22,180 : Error in parsing advertisement
+2020-11-09 14:51:22,181 : Error in parsing scan response
+2020-11-09 14:51:23,213 : 01CA450CBB1CE6 -56 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:23,213 : Advertisement Length 114 -> 57
+2020-11-09 14:51:23,214 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:23,216 : Duplicate AD
+2020-11-09 14:51:23,647 : 01C630157769EE -59 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:23,647 : Advertisement Length 114 -> 57
+2020-11-09 14:51:23,648 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:23,649 : Duplicate AD
+2020-11-09 14:51:23,953 : 01DE901D27B28D -88 "0201061BFF77000100000002808DB2271D90DE0171037CAAA95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:51:23,954 : Advertisement Length 114 -> 57
+2020-11-09 14:51:23,955 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:51:23,957 : Duplicate AD
+2020-11-09 14:51:24,654 : 01C630157769EE -68 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:24,654 : Advertisement Length 114 -> 57
+2020-11-09 14:51:24,655 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:24,655 : Duplicate AD
+2020-11-09 14:51:25,217 : 01CA450CBB1CE6 -68 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:25,217 : Advertisement Length 114 -> 57
+2020-11-09 14:51:25,218 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:25,219 : Duplicate AD
+2020-11-09 14:51:26,659 : 01C630157769EE -66 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:26,659 : Advertisement Length 114 -> 57
+2020-11-09 14:51:26,660 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:26,660 : Duplicate AD
+2020-11-09 14:51:27,230 : 01CA450CBB1CE6 -62 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:27,230 : Advertisement Length 114 -> 57
+2020-11-09 14:51:27,231 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:27,233 : Duplicate AD
+2020-11-09 14:51:28,670 : 01C630157769EE -59 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:28,670 : Advertisement Length 114 -> 57
+2020-11-09 14:51:28,671 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:28,672 : Duplicate AD
+2020-11-09 14:51:28,976 : 01DE901D27B28D -88 "0201061BFF77000100000002808DB2271D90DE0171037CAAA95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:51:28,976 : Advertisement Length 114 -> 57
+2020-11-09 14:51:28,977 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:51:28,978 : Duplicate AD
+2020-11-09 14:51:30,654 : 01C630157769EE -69 "02010
+2020-11-09 14:51:30,654 : Advertisement Length 5 -> 0
+2020-11-09 14:51:30,655 : Error in parsing advertisement
+2020-11-09 14:51:30,655 : Error in parsing scan response
+2020-11-09 14:51:31,249 : 01CA450CBB1CE6 -67 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:31,249 : Advertisement Length 114 -> 57
+2020-11-09 14:51:31,250 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:31,251 : Duplicate AD
+2020-11-09 14:51:32,252 : 01CA450CBB1CE6 -62 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:32,253 : Advertisement Length 114 -> 57
+2020-11-09 14:51:32,253 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:32,254 : Duplicate AD
+2020-11-09 14:51:32,687 : 01C630157769EE -64 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:32,687 : Advertisement Length 114 -> 57
+2020-11-09 14:51:32,688 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:32,690 : Duplicate AD
+2020-11-09 14:51:32,991 : 01DE901D27B28D -79 "0201061BFF77000100000002808DB2271D90DE0171037CAAA95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:51:32,991 : Advertisement Length 114 -> 57
+2020-11-09 14:51:32,991 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:51:32,992 : Duplicate AD
+2020-11-09 14:51:34,258 : 01CA450CBB1CE6 -52 "0201061BFF7700010000000780E61CBB0C45CA01B602A5ABA95FCA0800000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:34,258 : Advertisement Length 114 -> 57
+2020-11-09 14:51:34,259 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:34,261 : Duplicate AD
+2020-11-09 14:51:35,005 : 01DE901D27B28D -87 "0201061BFF77000100000002808DB2271D90DE0171037CAAA95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:51:35,006 : Advertisement Length 114 -> 57
+2020-11-09 14:51:35,007 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:51:35,008 : Duplicate AD
+2020-11-09 14:51:35,705 : 01C630157769EE -64 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:35,705 : Advertisement Length 114 -> 57
+2020-11-09 14:51:35,705 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:35,705 : Duplicate AD
+2020-11-09 14:51:36,105 : 01F5ECF0158F2C -68 "020
+2020-11-09 14:51:36,105 : Advertisement Length 3 -> 0
+2020-11-09 14:51:36,106 : Error in parsing advertisement
+2020-11-09 14:51:36,107 : Error in parsing scan response
+2020-11-09 14:51:36,265 : 01CA450CBB1CE6 -65 "0201061BFF7700010000000780E61CBB0C45CA0CB702D6ABA95FAD0B00000210FFE400030000000401000010010007000809546573742D3133"
+2020-11-09 14:51:36,265 : Advertisement Length 114 -> 57
+2020-11-09 14:51:36,266 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:36,267 : Test-13
+2020-11-09 14:51:36,268 : {'epoch': 1604955094, 'type': <SensorEventType.BATTERY_GOOD: 12>, 'number': 695, 'magnet_state': <MagnetState.FAR: 1>, 'temperature': 22.5, 'batteryVoltage': 29.89, 'reset_reason': <ResetReason.UNKNOWN: 10>, 'logger': <Logger AD parser (DEBUG)>}
+2020-11-09 14:51:37,113 : 01F5ECF0158F2C -85 "0201061BFF77000100000
+2020-11-09 14:51:37,113 : Advertisement Length 21 -> 0
+2020-11-09 14:51:37,114 : Error in parsing advertisement
+2020-11-09 14:51:37,115 : Error in parsing scan response
+2020-11-09 14:51:37,564 : 01DFB086DF3F7D -88 "0201061BFF77000100000007807D3FDF86B0DF07260316D5675FA0F900000510FFE400030000000401000004010007000809546573742D3230"
+2020-11-09 14:51:37,565 : Advertisement Length 114 -> 57
+2020-11-09 14:51:37,566 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:37,567 : Duplicate AD
+2020-11-09 14:51:37,709 : 01C630157769EE -64 "0201061BFF7700010000000780EE69771530C601B70061ABA95FC70800000610FFE400030000000401000004010007000809546573742D3035"
+2020-11-09 14:51:37,710 : Advertisement Length 114 -> 57
+2020-11-09 14:51:37,711 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 1}
+2020-11-09 14:51:37,712 : Duplicate AD
+2020-11-09 14:51:38,025 : 01DE901D27B28D -78 "0201061BFF77000100000002808DB2271D90DE0171037CAAA95F9E0800000A10FFE400030000000401000002010007000809546573742D3138"
+2020-11-09 14:51:38,026 : Advertisement Length 114 -> 57
+2020-11-09 14:51:38,026 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 0, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:51:38,027 : Duplicate AD
+2020-11-09 14:51:38,250 : 01CA450CBB1CE6 -65 "0201061BFF77000100000007
+2020-11-09 14:51:38,250 : Advertisement Length 24 -> 12
+2020-11-09 14:51:38,251 : Error in parsing advertisement
+2020-11-09 14:51:38,252 : Error in parsing scan response
+2020-11-09 14:51:39,147 : 01F5ECF0158F2C -71 "0201061BFF77000100000006802C8F15F0ECF50CA60134DC675FB80B00000910FFE400030000000401000000010007000809546573742D3134"
+2020-11-09 14:51:39,147 : Advertisement Length 114 -> 57
+2020-11-09 14:51:39,149 : {'magnet_state': 1, 'movement_alarm': 0, 'roc_alarm': 0, 'delta_temp_alarm': 0, 'low_temp_alarm': 0, 'high_temp_alarm': 0, 'low_battery_alarm': 0, 'reserved': 0, 'any_alarm': 1, 'active_mode': 1, 'time_was_set': 0}
+2020-11-09 14:51:39,150 : Found new sensor "Test-14" with BDA: f5ecf0158f2c
+2020-11-09 14:51:39,151 : rsp(ms2_length=16, ms2_type=255, ms2_company_id=228, protocol_id=3, product_id=0, firmware_major_version=4, firmware_minor_version=1, firmware_build_version=0, firmware_type=0, config_version=0, bootloader_major_version=1, bootloader_minor_version=0, bootloader_build_version=7, packed_hardware_version=0, name_length=8, name_type=9)
+2020-11-09 14:51:39,152 : Test-14
+2020-11-09 14:51:39,152 : {'epoch': 1600642100, 'type': <SensorEventType.BATTERY_GOOD: 12>, 'number': 422, 'magnet_state': <MagnetState.FAR: 1>, 'temperature': 0.0, 'batteryVoltage': 30.0, 'reset_reason': <ResetReason.UNKNOWN: 10>, 'logger': <Logger AD parser (DEBUG)>}
+2020-11-09 14:51:39,153 : Stopping Scan
+2020-11-09 14:51:39,163 : Attempting to connect to 01f5ecf0158f2c
+2020-11-09 14:51:41,291 : Disconnected

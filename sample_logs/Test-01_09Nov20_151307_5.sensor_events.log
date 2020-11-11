@@ -1,0 +1,6 @@
+Index,      Epoch, Salt,         Local time,     Data,                        EventType,   Marker ;
+    1, 1604956359,    0, 09 Nov 20 15:12:39, POWER_UP,                            RESET,          ;
+    2, 1604956359,    1, 09 Nov 20 15:12:39,      FAR,                           MAGNET,          ;
+    3, 1604956359,    2, 09 Nov 20 15:12:39,    23.24,                      TEMPERATURE,          ;
+    4, 1604956359,    3, 09 Nov 20 15:12:39,    2.897,                     BATTERY_GOOD,          ;
+    5, 1604956371,    0, 09 Nov 20 15:12:51,        -,                         MOVEMENT,          ;

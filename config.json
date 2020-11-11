@@ -1,0 +1,24 @@
+{
+  "comport": "COM23",
+  "baudrate": 115200,
+  "ble_dongle_baud_note": "If non-default (115200), this must be set and saved on the dongle using UwTerminalX (ats 302=1000000, at&w, atz)",
+  "ble_dongle_comport": "COM71",
+  "ble_dongle_baudrate": 115200,
+  "name_to_look_for": "Test-13",
+  "number_of_devices_to_look_for": 1,
+  "bd_addrs": [
+    "01C13A7E4118A2",
+    "01F277CFB9A24B",
+    "01E235431D1F8E",
+    "01D936EE37716E"
+  ],
+  "bd_addr_index": 0,
+  "ble_connection_interval_us": 7500,
+  "connection_timeout": 5,
+  "disconnect_timeout": 5,
+  "passkey": 123456,
+  "inter_message_delay": 0.02,
+  "reset_delay": 7,
+  "system_name_to_look_for": "Test",
+  "system_report_scan_duration_seconds": 1800
+}

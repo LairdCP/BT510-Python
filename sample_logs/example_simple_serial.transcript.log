@@ -1,0 +1,24 @@
+2020-11-09 14:47:29,838 : {"jsonrpc": "2.0", "method": "set", "params": {"lock": 0}, "id": 1}
+2020-11-09 14:47:29,913 : {"jsonrpc": "2.0", "id": 1, "result": "ok"}
+2020-11-09 14:47:29,913 : {"jsonrpc": "2.0", "method": "get", "params": ["sensorName"], "id": 2}
+2020-11-09 14:47:30,038 : {"jsonrpc": "2.0", "id": 2, "sensorName": "Test-01", "result": "ok"}
+2020-11-09 14:47:30,038 : "sensorName": Test-01
+2020-11-09 14:47:30,039 : {"jsonrpc": "2.0", "method": "get", "params": ["location"], "id": 3}
+2020-11-09 14:47:30,154 : {"jsonrpc": "2.0", "id": 3, "location": "desk", "result": "ok"}
+2020-11-09 14:47:30,158 : "location": desk
+2020-11-09 14:47:30,158 : {"jsonrpc": "2.0", "method": "get", "params": ["firmwareVersion"], "id": 4}
+2020-11-09 14:47:30,280 : {"jsonrpc": "2.0", "id": 4, "firmwareVersion": "4.1.1", "result": "ok"}
+2020-11-09 14:47:30,280 : "firmwareVersion": 4.1.1
+2020-11-09 14:47:30,281 : {"jsonrpc": "2.0", "method": "get", "params": ["hwVersion"], "id": 5}
+2020-11-09 14:47:30,398 : {"jsonrpc": "2.0", "id": 5, "hwVersion": "4", "result": "ok"}
+2020-11-09 14:47:30,398 : "hwVersion": 4
+2020-11-09 14:47:30,399 : {"jsonrpc": "2.0", "method": "get", "params": ["bluetoothAddress"], "id": 6}
+2020-11-09 14:47:30,522 : {"jsonrpc": "2.0", "id": 6, "bluetoothAddress": "C13A7E4118A2", "result": "ok"}
+2020-11-09 14:47:30,522 : "bluetoothAddress": C13A7E4118A2
+2020-11-09 14:47:30,522 : {"jsonrpc": "2.0", "method": "ledTest", "params": [1000], "id": 7}
+2020-11-09 14:47:30,647 : {"jsonrpc": "2.0", "id": 7, "result": "ok"}
+2020-11-09 14:47:30,647 : {"jsonrpc": "2.0", "method": "setEpoch", "params": [1604954850], "id": 8}
+2020-11-09 14:47:30,764 : {"jsonrpc": "2.0", "id": 8, "result": "ok"}
+2020-11-09 14:47:33,766 : {"jsonrpc": "2.0", "method": "getEpoch", "id": 9}
+2020-11-09 14:47:33,846 : {"jsonrpc": "2.0", "id": 9, "result": 1604954853}
+2020-11-09 14:47:33,846 : Pass: 4 Fail: 0
